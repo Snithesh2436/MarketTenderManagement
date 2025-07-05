@@ -1,0 +1,102 @@
+
+export const companiesData = [
+  {
+    id: 1,
+    name: "TechCorp Solutions",
+    industry: "Technology",
+    location: "San Francisco, CA",
+    description: "Leading provider of cloud infrastructure and digital transformation services for enterprise clients.",
+    logo: "/placeholder.svg",
+    employees: "500-1000",
+    founded: "2015",
+    rating: 4.8,
+    reviewsCount: 124,
+    activeTenders: 5,
+    successfulProjects: 89,
+    services: ["Cloud Migration", "DevOps", "Cybersecurity", "AI/ML"],
+    website: "techcorp-solutions.com"
+  },
+  {
+    id: 2,
+    name: "InnovateCo",
+    industry: "Marketing",
+    location: "New York, NY",
+    description: "Full-service digital marketing agency specializing in B2B SaaS companies and product launches.",
+    logo: "/placeholder.svg",
+    employees: "100-250",
+    founded: "2018",
+    rating: 4.6,
+    reviewsCount: 87,
+    activeTenders: 3,
+    successfulProjects: 156,
+    services: ["Digital Marketing", "Content Strategy", "SEO", "Paid Advertising"],
+    website: "innovateco.com"
+  },
+  {
+    id: 3,
+    name: "GlobalTrade Ltd",
+    industry: "Consulting",
+    location: "Chicago, IL",
+    description: "Strategic business consulting firm focused on supply chain optimization and international trade.",
+    logo: "/placeholder.svg",
+    employees: "250-500",
+    founded: "2012",
+    rating: 4.9,
+    reviewsCount: 203,
+    activeTenders: 2,
+    successfulProjects: 78,
+    services: ["Supply Chain", "Strategic Planning", "Market Analysis", "Operations"],
+    website: "globaltrade-ltd.com"
+  },
+  {
+    id: 4,
+    name: "CreativeStudio",
+    industry: "Design",
+    location: "Los Angeles, CA",
+    description: "Award-winning design agency creating memorable brand experiences and digital products.",
+    logo: "/placeholder.svg",
+    employees: "50-100",
+    founded: "2019",
+    rating: 4.7,
+    reviewsCount: 156,
+    activeTenders: 4,
+    successfulProjects: 234,
+    services: ["Brand Design", "Web Development", "UX/UI", "Product Design"],
+    website: "creativestudio.com"
+  },
+  {
+    id: 5,
+    name: "FinanceFirst Corp",
+    industry: "Finance",
+    location: "Boston, MA",
+    description: "Specialized financial services provider offering audit, compliance, and advisory services.",
+    logo: "/placeholder.svg",
+    employees: "100-250",
+    founded: "2010",
+    rating: 4.5,
+    reviewsCount: 92,
+    activeTenders: 1,
+    successfulProjects: 67,
+    services: ["Financial Audit", "Compliance", "Tax Advisory", "Risk Management"],
+    website: "financefirst-corp.com"
+  },
+  {
+    id: 6,
+    name: "BuildRight Engineering",
+    industry: "Construction",
+    location: "Denver, CO",
+    description: "Commercial construction and engineering firm with expertise in sustainable building practices.",
+    logo: "/placeholder.svg",
+    employees: "250-500",
+    founded: "2008",
+    rating: 4.4,
+    reviewsCount: 78,
+    activeTenders: 6,
+    successfulProjects: 145,
+    services: ["Commercial Construction", "Engineering", "Project Management", "Green Building"],
+    website: "buildright-eng.com"
+  }
+];
+
+export const industries = ["All", "Technology", "Marketing", "Consulting", "Design", "Finance", "Construction"];
+export const locations = ["All", "San Francisco, CA", "New York, NY", "Chicago, IL", "Los Angeles, CA", "Boston, MA", "Denver, CO"];
